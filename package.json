@@ -9,13 +9,25 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-community/slider": "4.5.6",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.2",
     "expo": "~53.0.22",
+    "expo-location": "~18.1.6",
     "expo-status-bar": "~2.2.3",
+    "lodash": "^4.17.21",
+    "openai": "^5.19.1",
     "react": "19.0.0",
-    "react-native": "0.79.6"
+    "react-native": "0.79.6",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-maps": "1.20.1",
+    "react-native-modal-datetime-picker": "^18.0.0",
+    "react-native-reanimated": "~3.17.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3"
   },
   "private": true
 }
